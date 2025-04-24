@@ -1,11 +1,36 @@
-Cuora is an AI-powered mobile application designed to provide immediate, intelligent support during medical emergencies. The app bridges the critical time gap between the onset of a health crisis and the arrival of professional help by combining real-time location sharing, AI-guided triage, and a community of nearby certified first responders.
+🩺 Project Title: Cuora – AI-Powered Emergency Health Responder Network
+🌟 Overview:
+Cuora is a mobile-first emergency response app designed to bridge the critical time gap between a health emergency and professional medical assistance. By combining AI-guided first aid triage, real-time location sharing, and a community responder network, Cuora empowers users to receive help faster and more intelligently — even before an ambulance arrives.
 
-With just one tap on the SOS button, Cuora instantly alerts emergency contacts, shares your live location, and dispatches notifications to trained responders in your vicinity. While help is on the way, Cuora’s built-in AI Triage Assistant guides users or bystanders through step-by-step first-aid instructions tailored to the situation — whether it’s a seizure, bleeding, asthma attack, or unconsciousness. The assistant uses natural language prompts to keep communication simple, accessible, and calming.
+🚀 Key Features:
+One-Tap SOS: Instantly alert emergency contacts, share your live location, and activate nearby certified responders.
 
-One of Cuora’s standout features is the Health Passport, a digital medical ID that stores critical information such as allergies, medications, and existing conditions. This data can be securely shared with responders or emergency rooms, ensuring faster and more accurate care.
+AI Triage Assistant: Interactive AI chatbot guides the user or a bystander through essential first-aid steps based on the situation.
 
-The Responder Map tracks the estimated time of arrival and profile of the volunteer en route, bringing transparency and reassurance during high-stress moments.
+Responder Locator: Maps and notifies nearby trained volunteers who can respond to the scene quickly.
 
-Designed for accessibility, Cuora serves the elderly, individuals with chronic conditions, solo travelers, students, and caregivers. By enabling communities to act as a safety net, the app promotes faster intervention and empowers everyday people to help save lives.
+Health Passport: A digital medical ID that securely stores allergies, medications, conditions, and emergency contacts — accessible via QR code.
 
-Cuora is built using Flutter, Firebase, and integrates OpenAI for smart triage logic. It's a seamless blend of technology, healthcare, and compassion — redefining what emergency response can look like in the digital age.
+Real-Time Status Updates: Track the responder's ETA, name, and actions in progress, ensuring transparency and calm during crises.
+
+💡 Why Cuora Stands Out:
+AI-Powered Support: Makes healthcare more accessible during moments of panic, even without medical knowledge.
+
+Community Driven: Crowdsourced network of trained responders fills the response gap in critical moments.
+
+Designed for All: Ideal for seniors, people with chronic conditions, caregivers, and everyday citizens.
+
+Multilingual & Voice Support: Makes lifesaving guidance accessible regardless of literacy or language barriers (planned for future release).
+
+🧠 Tech Stack:
+Frontend: Flutter (cross-platform)
+
+Backend: Firebase (Auth, Firestore, Real-time DB), FastAPI (AI middleware)
+
+AI/NLP: OpenAI GPT / MedPaLM for triage, Google Maps API for navigation
+
+Security: Biometric lock, encrypted health data, role-based access for responders
+
+📱 Platform:
+Android & iOS
+🌐 Optional admin dashboard for responder/incident management
